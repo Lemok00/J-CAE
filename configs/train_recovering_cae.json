@@ -1,0 +1,23 @@
+{
+  "cover_encoder_ckpt"     : "path_of_trained_cover_encoder",
+  "cover_decoder_ckpt"     : "path_of_trained_cover_decoder",
+  "cover_denoise_ckpt"     : "path_of_trained_cover_refining_unet",
+  "secret_encoder_ckpt"    : "path_of_trained_secret_encoder",
+  "secret_decoder_ckpt"    : "path_of_trained_secret_decoder",
+  "secret_denoise_ckpt"    : "path_of_trained_secret_refining_unet",
+  "exp_name"               : "your_experiment_name",
+  "learning_rate"          : 1e-5,
+  "batch_size"             : 4,
+  "shuffle"                : true,
+  "start_epoch"            : 1,
+  "num_epochs"             : 2000,
+  "print_every"            : 5,
+  "save_img_every"         : 20,
+  "save_model_every"       : 1000,
+  "cover_dataset_path"     : "your_cover_dataset_path",
+  "secret_dataset_path"    : "your_secret_dataset_path",
+  "num_workers"            : 1,
+  "device"                 : "cuda"
+}
+
+

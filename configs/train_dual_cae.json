@@ -1,0 +1,17 @@
+{
+  "num_epochs"        : 4000,
+  "batch_size"        : 32,
+  "learning_rate"     : 1e-4,
+  "start_epoch"       : 1,
+  "exp_name"          : "your_experiment_name",
+  "print_every"       : 1,
+  "save_img_every"    : 10,
+  "save_model_every"  : 1000,
+  "shuffle"           : true,
+  "dataset_path"      : "your_dataset_path",
+  "num_workers"       : 4,
+  "device"            : "cuda",
+  "_continue"         : false,
+  "encoder_ckpt"      : "",
+  "decoder_ckpt"      : ""
+}
